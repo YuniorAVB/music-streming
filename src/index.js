@@ -1,3 +1,3 @@
-const app = require('./server');
+const app = require("./server");
 
-app.listen(5000,()=>console.log("Server Running"))
+app.listen(() => console.log("Server Running"));
