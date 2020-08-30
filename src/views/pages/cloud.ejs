@@ -1,0 +1,32 @@
+<%- include("../layouts/header") %>
+
+<div class="wraper">
+  <%- include("../components/navbar") %> <%- include("../components/sidebar") %>
+
+  <main class="main">
+    <% if(files.length > 0){ files.forEach(file => { %>
+
+    <div class="card">
+      <div class="card__head">
+        <div class="card__img">
+          <img src="/img/cloud-storage.png" alt="asd" />
+        </div>
+      </div>
+
+      <div class="card__body">
+        <label class="card__title">
+          <%= file %>
+          <i class="fas fa-user"></i>
+        </label>
+      </div>
+    </div>
+
+    <% });}else{ %>
+
+    <h1>NO HAY NADA</h1>
+
+    <% } %>
+  </main>
+</div>
+
+<%- include("../layouts/footer") %>

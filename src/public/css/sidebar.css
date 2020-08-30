@@ -1,0 +1,17 @@
+
+.sidebar__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sidebar__items__upload input[type=file]{
+    display: none;
+}
+
+
+.btn-upload-file{
+  padding: 10px;
+  background-color: white;
+}

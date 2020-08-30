@@ -1,0 +1,14 @@
+:root {
+  --primary: #32e0c4;
+  --secondary: #eeeeee;
+
+  --warging: yellow;
+  --success: lightgreen;
+  --danger: red;
+
+  --font-family: "Roboto", "RobotoDraft", Helvetica, Arial, sans-serif;
+  --font-size-title: 25px;
+  --font-color: #202124;
+
+  --border: 1px solid #dadce0;
+}

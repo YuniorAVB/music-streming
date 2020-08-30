@@ -1,0 +1,11 @@
+@import "./style.css";
+
+.text-field{
+    padding: 10px;
+    outline: none;
+    margin: 5px 0;
+}
+
+.text-field:focus{
+    outline: invert;
+}

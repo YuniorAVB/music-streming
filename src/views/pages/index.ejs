@@ -1,0 +1,32 @@
+<%- include('../layouts/loginHeader') %>
+
+<div class="wraper">
+  <main class="main">
+    <section class="login">
+      <form class="login__form" action="/session" method="POST">
+
+        <img class="login_img" src="/img/cloud-storage.png" alt="igm-cloud">
+
+        <input
+          type="text"
+          name="usuario"
+          id="usuario"
+          class="text-field"
+          class="usuario"
+        />
+
+        <input
+          class="text-field"
+          type="text"
+          name="password"
+          id="password"
+          class="password"
+        />
+
+        <button class="button" type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+</div>
+
+<%- include('../layouts/loginFooter') %>
